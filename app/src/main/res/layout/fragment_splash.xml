@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SplashFragment"
+    android:id="@+id/layout">
+
+        <include
+            layout="@layout/design"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/to_do"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/to_do"
+            style="@style/to_do_textview"
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="12sp"
+            android:autoSizeMaxTextSize="140sp"
+            android:autoSizeStepGranularity="4sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

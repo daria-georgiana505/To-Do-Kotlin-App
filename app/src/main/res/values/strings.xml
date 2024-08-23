@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="to_do">To Do</string>
+    <string name="input_email">Type your email</string>
+    <string name="input_password">Type your password</string>
+    <string name="retype_password">Retype your password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_underlined"><u>Sign In</u></string>
+    <string name="sign_up_underlined"><u>Sign Up</u></string>
+    <string name="next_button_description">Next step</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="not_have_account">Do not have an account?</string>
+    <string name="type_your_task">Type your task</string>
+</resources>
