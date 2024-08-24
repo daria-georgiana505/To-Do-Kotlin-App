@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.AddTodoPopupFragment"
-    app:cardBackgroundColor="@color/input_color">
+    app:cardBackgroundColor="@color/input_color"
+    app:strokeWidth="0dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -35,7 +36,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/todoCloseButton">
+            app:layout_constraintTop_toBottomOf="@+id/todoCloseButton"
+            app:strokeWidth="0dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -50,6 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/input_color"
+                    android:textColor="@android:color/black"
                     android:hint="@string/type_your_task"
                     android:inputType="text"
                     android:paddingStart="12dp"

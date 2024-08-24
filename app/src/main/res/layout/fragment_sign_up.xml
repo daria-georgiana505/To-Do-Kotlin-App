@@ -36,7 +36,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1">
+        app:layout_constraintVertical_bias="1"
+        app:strokeWidth="0dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -51,6 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/input_color"
+                android:textColor="@android:color/black"
                 android:hint="@string/input_email"
                 android:inputType="textEmailAddress"
                 android:paddingStart="12dp"
@@ -74,7 +76,8 @@
         android:layout_marginHorizontal="20dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
-        app:cardUseCompatPadding="true">
+        app:cardUseCompatPadding="true"
+        app:strokeWidth="0dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -83,6 +86,7 @@
             app:boxStrokeWidth="0dp"
             app:boxStrokeWidthFocused="0dp"
             app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/darker_gray"
             app:hintEnabled="false">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -90,6 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/input_color"
+                android:textColor="@android:color/black"
                 android:hint="@string/input_password"
                 android:inputType="textPassword"
                 android:paddingStart="12dp"
@@ -113,7 +118,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/card_2"
-        app:layout_constraintVertical_bias="0">
+        app:layout_constraintVertical_bias="0"
+        app:strokeWidth="0dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -122,13 +128,15 @@
             app:boxStrokeWidth="0dp"
             app:boxStrokeWidthFocused="0dp"
             app:hintEnabled="false"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/darker_gray">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/retype_password_input_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/input_color"
+                android:textColor="@android:color/black"
                 android:hint="@string/retype_password"
                 android:inputType="textPassword"
                 android:paddingStart="12dp"

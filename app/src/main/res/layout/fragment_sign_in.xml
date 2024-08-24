@@ -36,7 +36,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43">
+        app:layout_constraintVertical_bias="0.43"
+        app:strokeWidth="0dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -51,6 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/input_color"
+                android:textColor="@android:color/black"
                 android:hint="@string/input_email"
                 android:inputType="textEmailAddress"
                 android:paddingStart="12dp"
@@ -74,7 +76,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/card_1"
-        app:layout_constraintVertical_bias="0">
+        app:layout_constraintVertical_bias="0"
+        app:strokeWidth="0dp">
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -83,13 +86,15 @@
             app:boxStrokeWidth="0dp"
             app:boxStrokeWidthFocused="0dp"
             app:hintEnabled="false"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/darker_gray">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password_input_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/input_color"
+                android:textColor="@android:color/black"
                 android:hint="@string/input_password"
                 android:inputType="textPassword"
                 android:paddingStart="12dp"
@@ -99,45 +104,6 @@
         </com.google.android.material.textfield.TextInputLayout>
 
     </com.google.android.material.card.MaterialCardView>
-
-    <!--    <com.google.android.material.card.MaterialCardView-->
-    <!--        android:id="@+id/card_3"-->
-    <!--        android:layout_width="0dp"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginHorizontal="20dp"-->
-    <!--        app:cardCornerRadius="8dp"-->
-    <!--        app:cardElevation="8dp"-->
-    <!--        app:cardUseCompatPadding="true"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.5"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/card_2"-->
-    <!--        app:layout_constraintVertical_bias="0">-->
-
-    <!--        <com.google.android.material.textfield.TextInputLayout-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="50dp"-->
-    <!--            android:background="@color/input_color"-->
-    <!--            app:boxStrokeWidth="0dp"-->
-    <!--            app:boxStrokeWidthFocused="0dp"-->
-    <!--            app:hintEnabled="false"-->
-    <!--            app:passwordToggleEnabled="true">-->
-
-    <!--            <com.google.android.material.textfield.TextInputEditText-->
-    <!--                android:id="@+id/retype_password_input_edit_text"-->
-    <!--                android:layout_width="match_parent"-->
-    <!--                android:layout_height="match_parent"-->
-    <!--                android:background="@color/input_color"-->
-    <!--                android:hint="@string/retype_password"-->
-    <!--                android:inputType="textPassword"-->
-    <!--                android:paddingStart="12dp"-->
-    <!--                android:paddingTop="15dp"-->
-    <!--                android:paddingEnd="12dp" />-->
-
-    <!--        </com.google.android.material.textfield.TextInputLayout>-->
-
-    <!--    </com.google.android.material.card.MaterialCardView>-->
 
     <ImageButton
         android:id="@+id/next_button"
