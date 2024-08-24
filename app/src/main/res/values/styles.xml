@@ -14,13 +14,8 @@
     </style>
     <style name="small_textview">
         <item name="android:textSize">@dimen/small_text_dimen</item>
-<!--        <item name="android:textColor">@color/grey</item>-->
         <item name="android:fontFamily">@font/lemon_regular</item>
     </style>
-    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-    </style>
-    
     <style name="task_text">
         <item name="android:textColor">@android:color/black</item>
         <item name="android:textSize">@dimen/task_text_dimen</item>

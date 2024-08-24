@@ -1,13 +1,11 @@
 package com.example.todoapp.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
-import com.example.todoapp.R
 import com.example.todoapp.databinding.FragmentAddTodoPopupBinding
 import com.example.todoapp.utils.ToDoData
 import com.google.android.material.textfield.TextInputEditText
@@ -89,6 +87,7 @@ class AddTodoPopupFragment : DialogFragment() {
             ViewGroup.LayoutParams.MATCH_PARENT,
             ViewGroup.LayoutParams.WRAP_CONTENT
         )
+        dialog?.window?.setBackgroundDrawableResource(android.R.color.transparent)
     }
 
     interface DialogNextButtonClickListener{
